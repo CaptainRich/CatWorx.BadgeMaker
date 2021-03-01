@@ -6,10 +6,13 @@
 *.lo
 *.o
 *.obj
+*.cache
+*.targets
 
 # Precompiled Headers
 *.gch
 *.pch
+*.pdb
 
 # Compiled Dynamic libraries
 *.so

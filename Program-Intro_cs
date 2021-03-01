@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;   // needed for Dictionaries
+
+namespace CatWorx.BadgeMaker
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Test 1
+            //Console.WriteLine("Hello World!");
+
+            // Test 2
+            // string greeting = "Hello";
+            // greeting = greeting + " World";
+            // Console.WriteLine("greeting: " + greeting);
+
+            // Test 3
+            // double Area = 0.0;
+            // double side = 3.14;
+
+            // Area = side * side;
+            // Console.Write( "Area is: {0}", Area );
+
+            // Test 4
+            // string stringNum = "2";
+            // Int32 number = 0;
+
+            // number = Convert.ToInt32( stringNum );
+            // Console.Write( "The variable 'number' is a : {0}", number.GetType() );
+            // Console.Write( "The value of 'number' is: {0}", number );
+
+            // Test 5
+            Dictionary<string, int> myScoreBoard = new Dictionary<string, int>(){
+                { "firstInning", 10 },
+                { "secondInning", 20},
+                { "thirdInning", 30},
+                { "fourthInning", 40},
+                { "fifthInning", 50}
+            };
+
+            Console.WriteLine("----------------");
+            Console.WriteLine("  Scoreboard");
+            Console.WriteLine("----------------");
+            Console.WriteLine("Inning |  Score");
+            Console.WriteLine("   1   |    {0}", myScoreBoard["firstInning"]);
+            Console.WriteLine("   2   |    {0}", myScoreBoard["secondInning"]);
+            Console.WriteLine("   3   |    {0}", myScoreBoard["thirdInning"]);
+            Console.WriteLine("   4   |    {0}", myScoreBoard["fourthInning"]);
+            Console.WriteLine("   5   |    {0}", myScoreBoard["fifthInning"]);
+
+
+        }
+    }
+}
