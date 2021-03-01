@@ -36,3 +36,5 @@ Selecting the console requires the user to manually enter the (program) requeste
 ![Console Alternative](./data/screen-shot.jpg) The first image shows the 'console' alternative to acquire employee data.
 
 ![API Alternative](./data/screen-shot2.jpg) The second image shows the 'API' alternative to acquire employee data.
+
+![Sample Badge](./data/472970316_badge.png) The third image shows a sample badge created by the application.
